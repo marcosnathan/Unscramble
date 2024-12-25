@@ -30,7 +30,6 @@ class GameViewModel : ViewModel() {
             return pickRandomWordAndShuffle()
         }
         else{
-            Log.i("#SayGus", "pickRandomWordAndShuffle: $currentWord")
             usedWords.add(currentWord)
             return shuffleCurrentWord(currentWord)
         }

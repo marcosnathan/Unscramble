@@ -1,6 +1,6 @@
 package com.example.unscramble.data
 
-const val SCORE_INCREASE = 10
+const val SCORE_INCREASE = 20
 const val MAX_NO_OF_WORDS = 10
 
 val allWords: Set<String> = setOf(
